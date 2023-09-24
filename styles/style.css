@@ -98,4 +98,27 @@ img {
   .get-started {
     margin: 20px 100px;
   }
+  .about-page {
+    margin: 10px auto;
+  }
+  .about-img {
+    max-width: 300px;
+    margin-left: 20px;
+  }
+  .about-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.about-page {
+  margin: 60px auto;
+}
+.about-h1 {
+  text-align: center;
+}
+.credentials-title h2 {
+  margin-left: 300px;
+}
+.about-text {
+  margin-top: 80px;
 }
