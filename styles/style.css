@@ -127,7 +127,7 @@ img {
 .about-h1 {
   text-align: center;
 }
-.credentials-title h2 {
+.credentials-title {
   margin-left: 300px;
 }
 .about-text {
@@ -172,4 +172,9 @@ img {
 }
 .navbar-logo {
   height: 80px;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
