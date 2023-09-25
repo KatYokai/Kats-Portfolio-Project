@@ -150,4 +150,23 @@ img {
   .work-img {
     width: 300px;
   }
+  .contact-page {
+    margin: 10px auto;
+  }
+  .contact-title {
+    text-align: center;
+    margin: 30px auto;
+  }
+  .contact-icon {
+    width: 151.703px;
+  }
+  .contact-link {
+    margin-bottom: 20px;
+  }
+}
+.contacts {
+  text-align: center;
+}
+.contact-title {
+  margin: 100px auto;
 }
