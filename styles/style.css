@@ -50,6 +50,7 @@ img {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   background: var(--secondary-color);
+  max-width: 150px;
 }
 .btn-portfolio-outline {
   color: var(--secondary-color);
@@ -65,11 +66,14 @@ img {
   border-radius: 40px;
 }
 .get-started {
-  margin: 30px 210px;
+  margin: 53px 170px;
 }
 .icons {
   margin: 40px auto;
   max-width: 500px;
+}
+.container {
+  display: block;
 }
 @media (max-width: 960px) {
   h1 {
@@ -82,7 +86,7 @@ img {
     padding-bottom: 50px;
   }
   .project-title {
-    font-size: 35px;
+    font-size: 25px;
   }
   .project-description {
     padding: 0;
@@ -109,7 +113,14 @@ img {
     text-align: center;
     margin-bottom: 10px;
   }
+  .work-title {
+    font-size: 35px;
+  }
+  .work-page {
+    margin: 10px 10px;
+  }
 }
+
 .about-page {
   margin: 60px auto;
 }
@@ -121,4 +132,22 @@ img {
 }
 .about-text {
   margin-top: 80px;
+}
+.work-page {
+  margin: 40px auto;
+}
+.col {
+  text-align: center;
+}
+@media (max-width: 960px) {
+  p {
+    font-size: small;
+  }
+  .work-page col {
+    width: 60px;
+    margin: 10px auto;
+  }
+  .work-img {
+    width: 300px;
+  }
 }
