@@ -35,6 +35,14 @@ img {
   font-size: 40px;
   margin-bottom: 30px;
 }
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+footer {
+  margin-top: 200px;
+  text-align: center;
+}
 .hero p {
   font-size: 36px;
   font-weight: 600;
@@ -143,6 +151,9 @@ img {
   p {
     font-size: small;
   }
+  footer {
+    margin-top: 100px;
+  }
   .work-page col {
     width: 60px;
     margin: 10px auto;
@@ -173,8 +184,4 @@ img {
 .navbar-logo {
   height: 80px;
   border-radius: 20px;
-}
-a {
-  text-decoration: none;
-  color: var(--secondary-color);
 }
